@@ -1,3 +1,7 @@
+"use client";
+
+import { Main } from "./UI";
+
 export default function Home() {
-	return <main>Helo</main>;
+	return <Main>Helo</Main>;
 }
