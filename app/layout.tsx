@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "@/app/styles/global.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import { senFont, syneFont } from "@/fonts";
 
 export const metadata: Metadata = {
 	title: "SoftVault",
@@ -16,7 +14,9 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="es">
-			<body className={inter.className}>{children}</body>
+			<body className={`${syneFont.variable} ${senFont.variable}`}>
+				{children}
+			</body>
 		</html>
 	);
 }
