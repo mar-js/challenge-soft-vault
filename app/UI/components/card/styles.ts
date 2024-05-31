@@ -19,8 +19,10 @@ export const CardStyle = styled.div<IStyles>`
 export const CardTitleStyle = styled.h4`
   font-weight: 700;
   font-size: 2rem;
+  font-family: var(--font-syne);
 `;
 
 export const CardDescriptionStyle = styled.p`
   font-size: 1.2rem;
+  font-family: var(--font-sen)
 `;
