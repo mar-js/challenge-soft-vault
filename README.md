@@ -47,3 +47,37 @@ Luego de instalarse la extensión, en los archivos `*.(spec|test).(js|jsx|ts|tsx
 <img width="1000" src="./public/code-test.png" />
 
 y al tocar en algún botón que dice `Run`, se levantará una terminal ejecutando el test. Esto es bueno porque separa el testing de los demás archivos.
+
+## Pasos para compilar el proyecto:
+
+- Se utilzan los siguientes comandos:
+
+```bash
+npm run build
+# or
+yarn run build
+# or
+pnpm run build
+# or
+bun run build
+```
+
+> **Warning:** Si tiene una versión de NODE mayor a 21 saldrá en consola el siguiente mensaje:
+>
+> (node:93656) [DEP0040] DeprecationWarning: The punycode module is deprecated. Please use a userland alternative instead.
+>
+> Para evitar eso, instale una verisón de NDOE menor a 21.
+
+## Pasos para compilar el storybook:
+
+- Se utilzan los siguientes comandos:
+
+```bash
+npm run storybook
+# or
+yarn run storybook
+# or
+pnpm run storybook
+# or
+bun run storybook
+```
