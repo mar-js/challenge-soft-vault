@@ -8,6 +8,20 @@
 - Es agnóstico al manegador de paquetes que utilices. Por ejemplo: npm, pnpm, etc.
 - Contiene test unitarios, documentación de los componentes con storybook, usa biome como linter y emotion para los estilos
 
+## Pasos para instalar el proyecto:
+
+- Para instalarlo se utilzan los siguientes comandos:
+
+```bash
+npm i
+# or
+yarn
+# or
+pnpm i
+# or
+bun install
+```
+
 ## Pasos para levantar el proyecto:
 
 - Para levantar el proyecto se utilzan los siguientes comandos:
