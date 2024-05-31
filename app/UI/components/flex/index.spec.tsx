@@ -1,4 +1,3 @@
-import { cardsOurVisions, cardsProjects } from "@/app/mocks";
 import { render, screen } from "@testing-library/react";
 import { Flex } from ".";
 
