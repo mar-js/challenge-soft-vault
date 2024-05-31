@@ -7,8 +7,14 @@
 }
 
 :root {
-  --black: #232323;
+  --black: #151515;
+  --gray: #2f2f2f;
   --white: #ffffff;
+
+  --postion-init: 1;
+  --postion-normal: 100;
+  --postion-medium: 1000;
+  --postion-aggressive: 10000;
 }
 
 html {
