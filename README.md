@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Prueba técnica para SoftVault S.A
 
-## Getting Started
+<img width="200" src="./public/soft-vault-logo.png" />
 
-First, run the development server:
+### Detalles del proyecto:
+
+- Se replica el diseño que está en el [Figma](https://www.figma.com/design/tNFl8x5qGpCENxRJcAsIbB/Figma-Martin).
+- Es agnóstico al manegador de paquetes que utilices. Por ejemplo: npm, pnpm, etc.
+- Contiene test unitarios, documentación de los componentes con storybook, usa biome como linter y emotion para los estilos
+
+## Pasos para levantar el proyecto:
+
+- Para levantar el proyecto se utilzan los siguientes comandos:
 
 ```bash
 npm run dev
 # or
-yarn dev
+yarn run dev
 # or
-pnpm dev
-# or
+pnpm run dev
+# or
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+con esto el proyecto estará levantado en el puerto [localhost:3000](http://localhost:3000/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Para levantar storybook y ver la documentación de los componentes, se utilzan los siguientes comandos:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+npm run storybook
+# or
+yarn run storybook
+# or
+pnpm run storybook
+# or
+bun storybook
+```
 
-## Learn More
+con esto el proyecto estará levantado en el puerto [localhost:6006](http://localhost:6006/)
 
-To learn more about Next.js, take a look at the following resources:
+- Para correr los test unitarios no hay comandos. En este caso se necesita instalar la siguiente extensión para vscode:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<img width="1000" src="./public/extension-jest.png" />
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Luego de instalarse la extensión, en los archivos `*.(spec|test).(js|jsx|ts|tsx)`; se verán de la siguiente forma:
 
-## Deploy on Vercel
+<img width="1000" src="./public/code-test.png" />
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+y al tocar en algún botón que dice `Run`, se levantará una terminal ejecutando el test. Esto es bueno porque separa el testing de los demás archivos.
