@@ -1,3 +1,5 @@
+import type { AlignItems, FlexWrap, JustifyContent } from "../types";
+
 export interface IStyles {
 	bg: string;
 	color?: string;
@@ -14,7 +16,7 @@ export interface ICard {
 }
 
 export interface IFlex {
-	justifyContent?: string;
-	alignItem?: string;
-	flexWrap?: string;
+	justifyContent?: JustifyContent;
+	alignItem?: AlignItems;
+	flexWrap?: FlexWrap;
 }
