@@ -1,2 +1,2 @@
-export * from "./cards";
+export { Card } from "./card";
 export { Flex } from "./flex";

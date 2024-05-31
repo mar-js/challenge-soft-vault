@@ -1,14 +1,16 @@
-export interface ICardOurVisions {
-	id: number;
-	title: string;
-	description: string;
+export interface IStyles {
 	bg: string;
+	color?: string;
 	padding: string;
+	width: string;
+	height: string;
 }
 
-export interface ICardOurVisionsStyle {
-	bg: string;
-	padding: string;
+export interface ICard {
+	id: number;
+	title: string;
+	description?: string;
+	styles: IStyles;
 }
 
 export interface IFlex {
