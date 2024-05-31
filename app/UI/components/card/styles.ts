@@ -14,14 +14,6 @@ export const CardStyle = styled.div<IStyles>`
   background: no-repeat center / contain url(${({ bg }) => bg}) transparent;
   z-index: var(--postion-init);
   color: ${({ color }) => color};
-
-  &:nth-child(2) {
-    margin-left: -1.5rem;
-  }
-
-  &:nth-child(3) {
-    margin-left: 1rem;
-  }
 `;
 
 export const CardTitleStyle = styled.h4`
