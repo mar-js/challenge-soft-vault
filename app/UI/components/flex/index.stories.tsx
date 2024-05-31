@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { Flex } from ".";
 
 const meta: Meta<typeof Flex> = {
-	title: "UI/components/flex",
+	title: "UI/components/Flex",
 	component: Flex,
 	tags: ["autodocs"],
 };

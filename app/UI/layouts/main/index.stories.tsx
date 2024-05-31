@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { Main } from ".";
 
 const meta: Meta<typeof Main> = {
-	title: "UI/layouts/main",
+	title: "UI/layouts/Main",
 	component: Main,
 	tags: ["autodocs"],
 };
