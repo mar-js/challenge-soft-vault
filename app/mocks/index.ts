@@ -49,7 +49,7 @@ export const cardsProjects: ICard = {
 	title: "Below are some of the key technologies we use in our projects:",
 	styles: {
 		bg: bgFour.src,
-		padding: "3rem 7rem",
+		padding: "3rem 5rem",
 		color: "#00F4AC",
 		width: "51rem",
 		height: "12.5rem",
