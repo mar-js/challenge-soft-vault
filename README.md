@@ -52,7 +52,9 @@ bun storybook
 
 con esto el proyecto estará levantado en el puerto [localhost:6006](http://localhost:6006/)
 
-- Para correr los test unitarios no hay comandos. En este caso se necesita instalar la siguiente extensión para vscode:
+## Pasos para correr los tests unitarios:
+
+- Para correr los tests unitarios no hay comandos. En este caso se necesita instalar la siguiente extensión para vscode:
 
 <img width="1000" src="./public/extension-jest.png" />
 
@@ -82,7 +84,7 @@ bun run build
 >
 > Para evitar eso, instale una verisón de NDOE menor a 21.
 
-## Pasos para compilar el storybook:
+## Pasos para compilar storybook:
 
 - Se utilzan los siguientes comandos:
 
